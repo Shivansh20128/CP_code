@@ -52,3 +52,45 @@ class Scratch {
 
     }
 }
+
+
+///
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Scanner;
+import java. util. Arrays;
+class Scratch {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        int n = scan.nextInt();
+        Integer[] array = new Integer[n];
+        for(int i=0;i<n;i++){
+            array[i]= scan.nextInt();
+        }
+        Arrays.sort(array,Collections.reverseOrder());
+        int j;
+
+        ArrayList<Integer> test = new ArrayList<>();
+        test.add(0);
+
+        for(int q=0;q<n;q++){
+            int x = array[q];
+            j=0;
+            while(j<test.size()){
+                if(test.get(j)+x<=4){
+                    test.set(j,test.get(j)+x);
+                    break;
+                }else{
+                    if(j==test.size()-1){
+                        test.add(0);
+                    }
+                    j++;
+                }
+            }
+        }
+        System.out.println(test.size());
+    }
+}
+
+
+///
