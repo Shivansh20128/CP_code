@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class Scratch {
+class unique_digit_year {
     public static boolean isUnique(String str){
         char a = str.charAt(0);
         char b = str.charAt(1);

@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class Scratch {
+class next_round {
     public static void main(String[] args){
         Scanner scan  = new Scanner(System.in);
         int n = scan.nextInt();

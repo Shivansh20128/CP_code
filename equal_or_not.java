@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class Scratch {
+class equal_or_not {
     public static void main(String[] args){
         Scanner scan  = new Scanner(System.in);
         int testcases = scan.nextInt();

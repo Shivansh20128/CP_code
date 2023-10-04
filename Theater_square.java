@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class Scratch {
+class Theater_square {
     public static void main(String[] args){
         Scanner scan  = new Scanner(System.in);
         int n = scan.nextInt();

@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class Scratch {
+class more_amount_less_coins {
     static void merge(int[] array, int left, int mid, int right) {
         int[] temp_left=new int[mid-left+1];
         int[] temp_right=new int[right-mid];

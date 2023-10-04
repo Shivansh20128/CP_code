@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class Scratch {
+class go_to_a_cell_diagonally {
     public static void main(String[] args){
         int dr;
         int dc;

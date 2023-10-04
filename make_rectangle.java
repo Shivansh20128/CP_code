@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Scratch {
+class make_rectangle {
     public static void main(String[] args) {
         int l1,l2,l3;
 

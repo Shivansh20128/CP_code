@@ -1,6 +1,6 @@
 import java.util.Locale;
 import java.util.Scanner;
-class Scratch {
+class strings_comparision {
     static int row;static int column;
     public static void main(String[] args){
         Scanner scan  = new Scanner(System.in);
